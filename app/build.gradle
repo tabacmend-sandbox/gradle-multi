@@ -7,6 +7,8 @@ mainClassName = 'app.Main'
 
 dependencies {
     compile project(':base')
+    implementation group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.6.2'
+
 }
 
 task customFatJar(type: Jar) {
