@@ -16,6 +16,7 @@ subprojects {
         compileOnly 'org.projectlombok:lombok:1.18.12'
         testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
         testCompileOnly 'org.projectlombok:lombok:1.18.12'
+        implementation group: 'com.squareup.retrofit2', name: 'converter-gson', version: '2.6.2'
 
         // for logging
         implementation 'ch.qos.logback:logback-classic:1.2.3'
